@@ -214,4 +214,4 @@ while run:
         high_score = score
 
     pygame.display.flip()
-pygame.quit()``
+pygame.quit()
