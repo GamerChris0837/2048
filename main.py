@@ -1,6 +1,7 @@
 import pygame
 import random
 
+
 pygame.init()
 
 WIDTH = 400
@@ -10,6 +11,8 @@ pygame.display.set_caption('2048')
 timer = pygame.time.Clock()
 fps = 30
 font = pygame.font.Font('KoPub Dotum Bold.ttf', 24)
+icon = pygame.image.load('icon1.jpg')
+pygame.display.set_icon(icon)
 
 colors = {0: (204, 192, 179),
           2: (238, 228, 218),
